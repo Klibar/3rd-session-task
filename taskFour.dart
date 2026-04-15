@@ -2,9 +2,9 @@
 void main() {
   var x = 7;
   var y = 4;
-  print('befor swap \n $x \n $y');
+  print('befor swap \n x = $x \n y = $y');
   x = x ^ y;
   y = x ^ y;
   x = x ^ y;
-  print('after swap \n $x \n $y');
+  print('after swap \n x = $x \n y = $y');
 }
