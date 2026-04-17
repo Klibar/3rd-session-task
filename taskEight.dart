@@ -4,5 +4,5 @@ void main() {
   var distance = 25;
   var speed = 40;
   var time = distance / speed;
-  print('time to office = $time m');
+  print('time to office = ${time * 60} m');
 }
